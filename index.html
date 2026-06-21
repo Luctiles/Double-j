@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double J Bar & Lounge | Best Accommodation, Food & Parties in Ngogwe, Buikwe</title>
+    
+    <!-- SEO META TAGS -->
+    <meta name="description" content="Double J Bar & Lounge in Ngogwe, Buikwe — accommodation, food, parties, massage, sound rental & leisure. Easily accessible from Jinja Express, Mukono, Kampala, Lugazi, Wakiso & Makindye. Open 24/7 for night walkers.">
+    <meta name="keywords" content="Double J Bar, Double J Lounge, Ngogwe bar, Buikwe accommodation, night walkers Ngogwe, Jinja Express bar, Mukono leisure, Kampala weekend getaway, Lugazi parties, Wakiso events, Makindye nightlife, sound rental Buikwe, massage Ngogwe, food and drinks Buikwe, party venue Jinja Express">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Double J Bar & Lounge">
+    <link rel="canonical" href="https://doublejbarandlounge.com">
+    
+    <!-- Open Graph for Social Media -->
+    <meta property="og:title" content="Double J Bar & Lounge - Best Leisure in Ngogwe, Buikwe">
+    <meta property="og:description" content="Accommodation, food, parties, massage, sound rental — easily accessible from Jinja Express, Mukono, Kampala & more. Open 24/7.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://doublejbarandlounge.com">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=1200&h=630&fit=crop">
+    
+    <style>
+        /* ===== RESET & BASE ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background: #0d0d0d;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        /* ===== HEADER ===== */
+        header {
+            background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+            padding: 25px 20px;
+            text-align: center;
+            border-bottom: 4px solid #e94560;
+        }
+        header h1 {
+            font-size: 2.4rem;
+            color: #e94560;
+            letter-spacing: 3px;
+            font-weight: 700;
+        }
+        header p {
+            color: #cccccc;
+            font-size: 1.2rem;
+            margin-top: 5px;
+            letter-spacing: 1px;
+        }
+        
+        /* ===== HERO SECTION with REAL IMAGE ===== */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), 
+                        url('https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=1200&h=600&fit=crop&crop=center');
+            background-size: cover;
+            background-position: center;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 3rem;
+            color: #ffffff;
+            text-shadow: 0 0 30px rgba(233,69,96,0.6);
+            font-weight: 700;
+        }
+        .hero p {
+            font-size: 1.3rem;
+            color: #dddddd;
+            margin-top: 10px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .btn {
+            display: inline-block;
+            background: #e94560;
+            color: #ffffff;
+            padding: 14px 40px;
+            margin-top: 25px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background: #ff6b81;
+            transform: scale(1.05);
+            box-shadow: 0 0 25px rgba(233,69,96,0.4);
+        }
+        
+        /* ===== SECTION TITLES ===== */
+        .section {
+            padding: 50px 20px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .section h2 {
+            color: #e94560;
+            font-size: 2.2rem;
+            text-align: center;
+            margin-bottom: 35px;
+            border-bottom: 3px solid #e94560;
+            padding-bottom: 12px;
+            display: inline-block;
+            width: auto;
+            margin-left: auto;
+            margin-right: auto;
+            display: table;
+        }
+        
+        /* ===== SERVICES GRID ===== */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+        }
+        .card {
+            background: #1a1a2e;
+            padding: 25px 20px;
+            border-radius: 14px;
+            text-align: center;
+            border: 1px solid #2a2a4a;
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            border-color: #e94560;
+            transform: translateY(-6px);
+            box-shadow: 0 10px 30px rgba(233,69,96,0.15);
+        }
+        .card .icon {
+            display: block;
+            margin: 0 auto 12px auto;
+            width: 60px;
+            height: 60px;
+            background: #0f3460;
+            border-radius: 50%;
+            line-height: 60px;
+            font-size: 28px;
+            color: #e94560;
+            font-weight: 300;
+        }
+        .card h3 {
+            color: #e94560;
+            margin-bottom: 8px;
+            font-size: 1.2rem;
+        }
+        .card p {
+            color: #aaaaaa;
+            font-size: 0.95rem;
+        }
+        
+        /* ===== LOCATION BOX ===== */
+        .location-box {
+            background: #1a1a2e;
+            padding: 30px;
+            border-radius: 14px;
+            border-left: 6px solid #e94560;
+            margin: 20px 0;
+        }
+        .location-box p {
+            font-size: 1.1rem;
+            color: #cccccc;
+            line-height: 2;
+        }
+        .location-box strong {
+            color: #ffffff;
+        }
+        .location-box .highlight {
+            color: #e94560;
+            font-weight: 700;
+        }
+        .keyword-tag {
+            display: inline-block;
+            background: #0f3460;
+            color: #e94560;
+            padding: 6px 16px;
+            border-radius: 25px;
+            margin: 4px 3px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            border: 1px solid #1a4a7a;
+        }
+        .keyword-tag:hover {
+            background: #e94560;
+            color: #ffffff;
+            border-color: #e94560;
+        }
+        
+        /* ===== FEATURES / WHY CHOOSE ===== */
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .feature-card {
+            background: #1a1a2e;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            border-bottom: 3px solid #e94560;
+        }
+        .feature-card h3 {
+            color: #e94560;
+            font-size: 1.1rem;
+        }
+        .feature-card p {
+            color: #aaaaaa;
+            font-size: 0.9rem;
+            margin-top: 5px;
+        }
+        
+        /* ===== CONTACT ===== */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        .contact-item {
+            background: #1a1a2e;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            border: 1px solid #2a2a4a;
+            transition: 0.3s;
+        }
+        .contact-item:hover {
+            border-color: #e94560;
+        }
+        .contact-item strong {
+            color: #ffffff;
+            display: block;
+            margin-bottom: 8px;
+        }
+        .contact-item a {
+            color: #e94560;
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+        .contact-item a:hover {
+            color: #ff6b81;
+        }
+        
+        /* ===== WHATSAPP FLOAT ===== */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            background: #25D366;
+            color: #ffffff;
+            padding: 14px 22px;
+            border-radius: 50px;
+            font-weight: 700;
+            box-shadow: 0 6px 20px rgba(37,211,102,0.4);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            z-index: 1000;
+            transition: 0.3s;
+            font-size: 1rem;
+        }
+        .whatsapp-float:hover {
+            background: #128C7E;
+            transform: scale(1.05);
+        }
+        .whatsapp-float .icon {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1;
+        }
+        
+        /* ===== FOOTER ===== */
+        footer {
+            background: #0a0a0a;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 40px;
+            border-top: 2px solid #1a1a2e;
+            color: #666666;
+            font-size: 0.9rem;
+        }
+        footer strong {
+            color: #e94560;
+        }
+        footer .keywords {
+            color: #444444;
+            font-size: 0.8rem;
+            display: block;
+            margin-top: 8px;
+        }
+        
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.8rem; }
+            .hero h2 { font-size: 2rem; }
+            .hero p { font-size: 1rem; }
+            .section h2 { font-size: 1.5rem; }
+            .location-box p { font-size: 1rem; }
+            .whatsapp-float { padding: 12px 16px; font-size: 0.9rem; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header>
+    <h1>Double J Bar & Lounge</h1>
+    <p>Ngogwe, Buikwe — Your Premier Leisure Destination</p>
+</header>
+
+<!-- ===== HERO with REAL IMAGE ===== -->
+<div class="hero">
+    <h2>Relax &bull; Party &bull; Unwind</h2>
+    <p>Accommodation &bull; Food &bull; Drinks &bull; Massage &bull; Events &bull; Sound Rental</p>
+    <a href="#contact" class="btn">Book Now</a>
+</div>
+
+<!-- ===== SERVICES ===== -->
+<div class="section">
+    <h2>Our Premium Services</h2>
+    <div class="grid">
+        <div class="card">
+            <span class="icon">🏨</span>
+            <h3>Accommodation</h3>
+            <p>Comfortable rooms for night walkers, travelers &amp; weekend getaways from Kampala</p>
+        </div>
+        <div class="card">
+            <span class="icon">🍽️</span>
+            <h3>Food &amp; Drinks</h3>
+            <p>Delicious local &amp; continental meals, cold beers, cocktails &amp; fresh juices</p>
+        </div>
+        <div class="card">
+            <span class="icon">🎵</span>
+            <h3>Parties &amp; Events</h3>
+            <p>Birthdays, weddings, corporate events, and private parties in Buikwe</p>
+        </div>
+        <div class="card">
+            <span class="icon">💆</span>
+            <h3>Massage Therapy</h3>
+            <p>Relax and rejuvenate with professional massage after a long day</p>
+        </div>
+        <div class="card">
+            <span class="icon">🔊</span>
+            <h3>Sound Rental</h3>
+            <p>High-quality PA systems, speakers, and DJ equipment for any event</p>
+        </div>
+        <div class="card">
+            <span class="icon">🎮</span>
+            <h3>Leisure &amp; Entertainment</h3>
+            <p>Pool table, big-screen TV, music, and chill vibes all day</p>
+        </div>
+    </div>
+</div>
+
+<!-- ===== LOCATION with JINJA EXPRESS ===== -->
+<div class="section">
+    <h2>Location &amp; Accessibility</h2>
+    <div class="location-box">
+        <p><strong>Address:</strong> <span class="highlight">Ngogwe, Buikwe District</span>, Uganda</p>
+        <p><strong>Easily accessible from:</strong></p>
+        <p>
+            <span class="keyword-tag">Jinja Express</span>
+            <span class="keyword-tag">Mukono</span>
+            <span class="keyword-tag">Nkokonjeru</span>
+            <span class="keyword-tag">Kampala</span>
+            <span class="keyword-tag">Lugazi</span>
+            <span class="keyword-tag">Wakiso</span>
+            <span class="keyword-tag">Makindye</span>
+        </p>
+        <p style="margin-top: 15px; color: #e94560; font-weight: 700;">
+            Just off the Jinja Express Highway — easy to find!
+        </p>
+        <p style="color: #aaaaaa; margin-top: 5px;">
+            <strong>Directions:</strong> From Jinja Express, take the Ngogwe turn-off. We are 500 metres from the main road. Ask anyone for "Double J".
+        </p>
+    </div>
+</div>
+
+<!-- ===== WHY CHOOSE US ===== -->
+<div class="section">
+    <h2>Why Double J?</h2>
+    <div class="feature-grid">
+        <div class="feature-card">
+            <h3>24/7 Service</h3>
+            <p>Open day and night — we serve night walkers anytime</p>
+        </div>
+        <div class="feature-card">
+            <h3>Safe &amp; Secure</h3>
+            <p>Peace of mind with our secure premises and 24/7 security</p>
+        </div>
+        <div class="feature-card">
+            <h3>Affordable Rates</h3>
+            <p>Best prices in Buikwe for accommodation, food, and leisure</p>
+        </div>
+        <div class="feature-card">
+            <h3>Great Vibes</h3>
+            <p>Good music, cold drinks, friendly staff, and a welcoming atmosphere</p>
+        </div>
+    </div>
+</div>
+
+<!-- ===== CONTACT ===== -->
+<div class="section" id="contact">
+    <h2>Contact &amp; Bookings</h2>
+    <div class="contact-grid">
+        <div class="contact-item">
+            <strong>Call Us</strong>
+            <a href="tel:+256700000000">+256 700 000 000</a>
+        </div>
+        <div class="contact-item">
+            <strong>WhatsApp</strong>
+            <a href="https://wa.me/256700000000" target="_blank">Chat Now</a>
+        </div>
+        <div class="contact-item">
+            <strong>Location</strong>
+            <a href="#" target="_blank">View on Google Maps</a>
+        </div>
+    </div>
+    <p style="text-align: center; margin-top: 25px; color: #aaaaaa;">
+        <strong>Visit us:</strong> Ngogwe, Buikwe — just off Jinja Express Highway. Ask for Double J!
+    </p>
+</div>
+
+<!-- ===== WHATSAPP FLOAT ===== -->
+<a href="https://wa.me/256700000000" class="whatsapp-float" target="_blank">
+    <span class="icon">💬</span> Chat on WhatsApp
+</a>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+    &copy; 2026 <strong>Double J Bar &amp; Lounge</strong> — Ngogwe, Buikwe, Uganda.<br>
+    <span class="keywords">
+        Best bar near Jinja Express &bull; Accommodation in Buikwe &bull; Night walkers Ngogwe &bull; Parties &amp; events &bull; Sound rental &bull; Mukono &bull; Kampala &bull; Lugazi &bull; Wakiso &bull; Makindye
+    </span>
+    <br>
+    <span style="color: #333333; font-size: 0.75rem;">Website by [Your Name]</span>
+</footer>
+
+</body>
+</html>
